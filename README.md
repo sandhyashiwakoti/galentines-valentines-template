@@ -8,7 +8,11 @@ A cute, customizable, and interactive website template to ask someone special to
 
 ---
 
-## ✨ Features
+## Live Demo
+
+**[View Live Site](https://be-my-galentine.netlify.app/)**
+
+## Features
 
 - 🐱 **Adorable peeking cat** that appears on every page
 - 💕 **Animated heartbeat background** with floating hearts
