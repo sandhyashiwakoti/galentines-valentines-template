@@ -14,15 +14,14 @@ A cute, customizable, and interactive website template to ask someone special to
 
 ## Features
 
-- 🐱 **Adorable peeking cat** that appears on every page
-- 💕 **Animated heartbeat background** with floating hearts
-- 📸 **Customizable memory slideshow** with photos and personal messages
-- 🎯 **Interactive "No" button** that moves around the screen when clicked
-- 🎉 **Confetti celebration** on acceptance
-- 📱 **Fully responsive** design for mobile and desktop
-- 🎨 **Glassmorphism UI** with neon pink theme
-- ⚡ **Smooth animations** powered by Framer Motion
-- 💌 **Easy to customize** - change text, images, and colors
+-  **Adorable peeking cat** that appears on every page
+-  **Animated heartbeat background** with floating hearts
+-  **Customizable memory slideshow** with photos and personal messages
+-  **Interactive "No" button** that moves around the screen when clicked
+-  **Confetti celebration** on acceptance
+-  **Fully responsive** design for mobile and desktop
+-  **Smooth animations** powered by Framer Motion
+-  **Easy to customize** - change text, images, and colors
 
 ---
 
@@ -30,9 +29,8 @@ A cute, customizable, and interactive website template to ask someone special to
 
 ### Prerequisites
 
-Make sure you have the following installed:
-- **Node.js** (v14 or higher) - [Download here](https://nodejs.org/)
-- **npm** or **yarn** package manager
+- **Node.js**  - [Download here](https://nodejs.org/)
+- **npm** package manager
 
 ### Installation
 
@@ -46,23 +44,15 @@ Make sure you have the following installed:
    ```bash
    npm install
    ```
-   or
-   ```bash
-   yarn install
-   ```
 
 3. **Run the development server**
    ```bash
    npm run dev
    ```
-   or
-   ```bash
-   yarn dev
-   ```
 
 4. **Open in browser**
    
-   Visit [http://localhost:5173](http://localhost:5173) to see your site!
+   [http://localhost:5173](http://localhost:5173)
 
 ---
 
@@ -71,17 +61,17 @@ Make sure you have the following installed:
 ```
 galentines-valentines-template/
 ├── public/
-│   └── peeking-cat.png          # Cat image asset
+│   └── peeking-cat.png         
 ├── src/
 │   ├── components/
-│   │   ├── Welcome.jsx          # Landing page
-│   │   ├── Memories.jsx         # Memory slideshow page
-│   │   ├── Ask.jsx              # Proposal page
-│   │   └── Success.jsx          # Acceptance/success page
-│   ├── App.jsx                  # Main app component
-│   ├── App.css                  # Main styles
-│   ├── index.css                # Global styles
-│   └── main.jsx                 # Entry point
+│   │   ├── Welcome.jsx        
+│   │   ├── Memories.jsx        
+│   │   ├── Ask.jsx      
+│   │   └── Success.jsx         
+│   ├── App.jsx                
+│   ├── App.css             
+│   ├── index.css                
+│   └── main.jsx               
 ├── package.json
 └── README.md
 ```
@@ -90,33 +80,7 @@ galentines-valentines-template/
 
 ## Customization Guide
 
-### 1. **Add Your Cat Image**
-
-Replace the cat image in the `public` folder:
-- Download a peeking cat PNG image
-- Save it as `peeking-cat.png` in the `public/` folder
-- The image will automatically appear on all pages
-
-**Free cat image resources:**
-- [Freepik](https://www.freepik.com)
-- [Flaticon](https://www.flaticon.com)
-- [Pngtree](https://pngtree.com)
-
-### 2. **Change Valentine's ↔ Galentine's**
-
-In `src/components/Ask.jsx`, update line 63:
-
-**For Valentine's Day:**
-```javascript
-<h1 style={{ marginBottom: '20px' }}>Will you be my Valentine? 💕</h1>
-```
-
-**For Galentine's Day:**
-```javascript
-<h1 style={{ marginBottom: '20px' }}>Will you be my Galentine? 🌹</h1>
-```
-
-### 3. **Update Memory Slideshow**
+### 1. **Update Memory Slideshow**
 
 Edit the `memoriesData` array in `src/components/Memories.jsx`:
 
@@ -136,7 +100,21 @@ const memoriesData = [
 ];
 ```
 
-#### ⚠️ Important - Use Your Own Photos
+### 2. **Change Valentine's ↔ Galentine's**
+
+In `src/components/Ask.jsx`, update line 63:
+
+**For Valentine's Day:**
+```javascript
+<h1 style={{ marginBottom: '20px' }}>Will you be my Valentine? 💕</h1>
+```
+
+**For Galentine's Day:**
+```javascript
+<h1 style={{ marginBottom: '20px' }}>Will you be my Galentine? 🌹</h1>
+```
+
+### 3. **Add Your Image**
 
 1. Add your images to the `public/` folder
 2. Name them: `memory1.jpg`, `memory2.jpg`, etc.
@@ -144,6 +122,11 @@ const memoriesData = [
 ```javascript
    img: "/memory1.jpg"
 ```
+
+**Free image resources:**
+- [Freepik](https://www.freepik.com)
+- [Flaticon](https://www.flaticon.com)
+- [Pngtree](https://pngtree.com)
 
 
 ### 4. **Customize GIFs**
@@ -175,22 +158,10 @@ const noTexts = [
   "Try again!"
 ];
 ```
-
-
 Add your own funny/cute messages!
-
 ---
 
-### 6. Image Setup
-
-Replace the placeholder images in the `public/` folder:
-- `memory1.jpg` through `memory7.jpg` - Your personal photos
-- `sad-cat.gif` - Crying/sad cat GIF
-- `peeking-cat.png` - Peeking cat image for the top
-
 ## Deployment
-
-### Deploy to Netlify (Recommended)
 
 1. **Build your project**
    ```bash
@@ -226,8 +197,6 @@ This template is perfect for:
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome!
-
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
@@ -239,12 +208,6 @@ Contributions, issues, and feature requests are welcome!
 ## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-This means you can:
-- ✅ Use it for personal projects
-- ✅ Use it for commercial projects
-- ✅ Modify and customize it
-- ✅ Distribute it
 
 ---
 
